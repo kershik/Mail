@@ -1,0 +1,23 @@
+textarea {
+    min-height: 400px;
+}
+
+div {
+    width: 100%;
+    padding: 7px;
+}
+div.email-read {
+    background-color: #e5e6f1;
+    border: none;
+}
+
+div.email-unread {
+    background-color: #fbfcf8;
+    border: 1px dashed #babcd4; 
+    font-weight: bold;
+}
+
+div.email-body {
+    border: 20px solid #fbfcf8; 
+    margin-bottom: 10px;
+}
